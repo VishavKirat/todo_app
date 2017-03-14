@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>todo list</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>TODO List</h1>
+    
+    <label for="add_todo_item">Add ToDo Item:</label>
+    <input type="text" id="newItem">
+    
+<!--    The submit button-->
+    <button type="add" onclick="add()" id="submit" >Submit</button>
+    
+    
+    <h2>Tasks:</h2>
+    <div id="todoDiv">
+    <ol id="todoList">
+     
+    </ol>
+    </div>
+    <p id="demo">
+    </p>
+  <footer>
+    <p>**Click on an item when it is completed.<br><br>**Click it again to reset the item if it needs to be done again</p>
+  </footer>
+  
+  <script src="app.js"></script>
+
+</body>
+
+</html>
